@@ -17,7 +17,7 @@ ur = []
 for link in browser.get_current_page().select('a.recipe-card'):
     h4 = link.select('h4')
     mytitle = h4[0].text.replace('<br />','')
-    myurl = 'https://www.marmiton.org/'+link.attrs['href']
+    myurl = 'https://www.marmiton.org'+link.attrs['href']
     tt.append(mytitle)
     ur.append(myurl)
     
