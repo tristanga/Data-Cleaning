@@ -1,4 +1,5 @@
-# Using MechanicalSoup to scrape one page of recipe for one ingredient on the best French Website Marmiton
+# Tutorial - Using MechanicalSoup to scrape one page of recipe for one ingredient on the best French Website Marmiton 
+# for educational purposes
 
 import mechanicalsoup
 
